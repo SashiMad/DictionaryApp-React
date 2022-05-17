@@ -13,7 +13,14 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          Open-source code by Sashi Madleniak
+          <a
+            href="https://github.com/SashiMad/DictionaryApp-React"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by Sashi Madleniak
         </footer>
       </div>
     </div>
