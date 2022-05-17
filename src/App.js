@@ -1,16 +1,21 @@
 import React from "react";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <button type="button" class="btn btn-primary">
-          Dictionary App coming soon!
-        </button>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>Dictionary App</h1>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          Open-source code by Sashi Madleniak
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
